@@ -1,0 +1,23 @@
+.navbar{
+    background-color: grey;
+    font-size: 1.5em;
+    &__wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 3em;
+        font-weight: 200;
+        a{
+            padding: 0 1em;
+            color: white;
+            text-decoration: inherit;
+        }
+    }
+    &__left{
+        a{
+            &:first-child{
+                font-weight: bold;
+            }
+        }
+    }
+}
